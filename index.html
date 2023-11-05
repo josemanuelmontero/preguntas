@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jose</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Jose Manuel Montero Adames</h1>
+</body>
+</html>
+</head>
+<body>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Pregunta</th>
+        <th>Respuesta</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. ¿Cuál es tu nombre?</td>
+        <td><input type="text" name="nombre" placeholder="Nombre"></td>
+      </tr>
+      <tr>
+        <td>2. ¿Cuál es tu edad?</td>
+        <td><input type="text" name="edad" placeholder="Edad"></td>
+      </tr>
+      <tr>
+        <td>3. ¿Cuál es tu país?</td>
+        <td><select name="pais">
+          <option value="España">España</option>
+          <option value="México">México</option>
+          <option value="Argentina">Argentina</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>4. ¿Cuáles son tus intereses?</td>
+        <td><input type="checkbox" name="intereses[]" value="Deporte">Deporte
+          <input type="checkbox" name="intereses[]" value="Cultura">Cultura
+          <input type="checkbox" name="intereses[]" value="Música">Música</td>
+      </tr>
+      <tr>
+        <td>5. ¿Cuál es tu sexo?</td>
+        <td><input type="radio" name="sexo" value="Masculino"> Masculino
+          <input type="radio" name="sexo" value="Femenino"> Femenino</td>
+      </tr>
+      <tr>
+        <td>6. ¿Cuál es tu fecha de nacimiento?</td>
+        <td><input type="date" name="fecha_nacimiento"></td>
+      </tr>
+      <tr>
+        <td>7. ¿Cuál es tu número favorito?</td>
+        <td><input type="number" name="numero_favorito"></td>
+      </tr>
+      <tr>
+        <td>8. ¿Cuál es tu correo electrónico?</td>
+        <td><input type="email" name="correo_electronico"></td>
+      </tr>
+      <tr>
+        <td>9. ¿Cuál es tu contraseña?</td>
+        <td><input type="password" name="contrasena"></td>
+      </tr>
+      <tr>
+        <td>10. ¿Cuál es tu color favorito?</td>
+        <td><input type="color" name="color_favorito"></td>
+      </tr>
+      <tr>
+        <td>11. ¿Cuál es tu animal favorito?</td>
+        <td><input type="text" name="animal_favorito"></td>
+      </tr>
+      <tr>
+        <td>12. ¿Cuál es tu comida favorita?</td>
+        <td><input type="text" name="comida_favorita"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <form action="index.php" method="post">
+    <input type="submit" value="Enviar">
+  </form>
+
+</body>
+</html>
